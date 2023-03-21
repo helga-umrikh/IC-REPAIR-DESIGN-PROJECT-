@@ -375,8 +375,26 @@ body * {
     align-items: center;
 }
 
+#arrowhead, #startarrow{
+    fill: white;
+}
+
+#arrow_left, #arrow_right {
+    opacity: 30%;
+}
+#arrow_left:hover{
+    opacity: 100%;
+}
+#arrow_right:hover{
+    opacity: 100%;
+}
+
+#arrow-line-left, #arrow-line-right {
+    stroke: white;
+}
+
 .dot-symbols {
-    width: 64px;
+    width: 134px;
     display: flex;
     justify-content: space-between;
 }
