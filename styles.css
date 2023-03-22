@@ -4,7 +4,7 @@
 body {
     margin: 0;
     background-color: #FFFFFF;
-    width: 100%;
+    width: 1440px;
 }
 
 body * {
@@ -13,6 +13,12 @@ body * {
 
 .nunito-font {
     font-family: Nunito Sans;
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
 }
 
 /* HEADER */
@@ -31,7 +37,7 @@ body * {
 .header-box {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 87%;
     height: 37px;
 }
 
@@ -48,7 +54,7 @@ body * {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    width: 89%;
+    width: 84%;
 }
 
 .header-navigation {
@@ -56,15 +62,16 @@ body * {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+    width: 64%;
 }
 
 .navigation-list {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    padding: 0;
     color: #FFFFFF;
 }
 
@@ -85,7 +92,6 @@ body * {
     height: 10px;
     display: flex;
     align-items: flex-start;
-    margin-right: 18px;
 }
 
 .request-button {
@@ -143,7 +149,7 @@ body * {
 }
 
 .hero-container {
-    margin: 9.5%;
+
     position: relative;
     z-index: 1;
     width: 96%;
@@ -154,14 +160,14 @@ body * {
 }
 
 .hero-title-box {
-    width: 55%;
+    width: 48%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     height: 305px;
     margin-bottom: 23px;
-    padding-right: 16%;
+    padding-left: 10%;
 }
 
 .title {
@@ -193,18 +199,19 @@ body * {
 }
 
 .two-buttons {
-    width: 81%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     height: 81px;
+    padding-right: 18%;
 }
 
 .hero-button {
+    width: 47%;
     font-size: 11px;
     text-align: center;
     padding: 18px 23px;
     font-style: italic;
-    width: 213px;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
     border: 0;
     border-radius: 2px;
@@ -442,6 +449,9 @@ body * {
     text-decoration: none;
     
 }
+.pr-image {
+    max-width: 100%;
+}
 
 .change-color:hover {
     color: #E3B873;
@@ -570,7 +580,7 @@ body * {
     margin: -326px auto;
     margin-bottom: 147px;
     height: 959px;
-    width: 818px;
+    width: 67%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -595,7 +605,7 @@ body * {
 }
 
 .online-control {
-    width: 196px;
+    width: 23%;
     height: 70px;
     display: flex;
     flex-direction: column;
@@ -624,11 +634,13 @@ body * {
     justify-content: center;
     align-items: center;
     position: relative;
+    max-width: 100%;
 }
 
 .video {
     position: relative;
-    z-index: 1;
+    z-index: 1;  
+    max-width: 100%;
 }
 
 .video-overlay {
@@ -644,7 +656,8 @@ body * {
 
 .play-button {
     position: absolute;
-    z-index: 3;
+    z-index: 3;  
+    max-width: 100%;
 }
 
 .video-description {
@@ -726,7 +739,7 @@ body * {
 }
 
 .agreement-container {
-    width: 289px;
+    width: 71%;
     display:inline-flex;
     align-items: center;
     user-select: none;
@@ -884,12 +897,12 @@ body * {
     display: flex;
     font-size: 20px;
     height: 26px;
-    width: 180px;
+    width: 100%;
 }
 
 .repair-bottom-box {
-    width: 100%;
-    max-width: 1440px;
+    width: 86%;
+    max-width: 100%;
     height: 708px;
     display: flex;
     flex-direction: column;
@@ -913,7 +926,7 @@ body * {
 
 .repair-option-item {
     height: 608px;
-    width: 50%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -926,6 +939,10 @@ body * {
     z-index: 1;
     width: 100%;
     height: 421px;
+}
+
+.room-example {
+    max-width: 100%;
 }
 
 .repair-desc {
@@ -1061,7 +1078,7 @@ body * {
 .req-section {
     max-width: 1440px;
     display: flex;
-    width: 1234px;
+    width: 100%;
     justify-content: space-between;
     flex-direction: row;
     margin: 0 auto;
@@ -1070,9 +1087,9 @@ body * {
 }
 
 .benefits {
-    width: 703px;
+    width: 55%;
     height: 645px;
-    padding: 4px 0px 0 139px;
+    padding: 4px 0px 0 0;
 }
 
 .benefit-options {
@@ -1084,7 +1101,7 @@ body * {
 }
 
 .benefit-option-item {
-    width: 399px;
+    width: 75%;
     height: 41px;
     display: flex;
 }
@@ -1111,12 +1128,12 @@ body * {
 }
 
 .request-input {
-    width: 505px;
+    width: 45%;
     height: 717px;
 }
 
 .request-inp {
-    width: 509px;
+    width: 100%;
     height: 509px;
     display: flex;
     flex-direction: column;
@@ -1128,7 +1145,7 @@ body * {
 
 .request-inp-desc {
     color: #FFFFFF;
-    width: 211px;
+    width: 50%;
     margin: 11px;
     text-align: center;
     font-size: 18px;
@@ -1141,7 +1158,7 @@ body * {
     align-items: flex-end;
     justify-content: space-between;
     height: 368px;
-    width: 408px;
+    width: 95%;
 }
 
 .input-bottom {
@@ -1164,7 +1181,7 @@ body * {
 }
 
 .real-input {
-    width: 408px;
+    width: 100%;
     height: 284px;
     display: flex;
     flex-direction: column;
@@ -1172,7 +1189,7 @@ body * {
 } 
 
 .request-input-rectangles {
-    width: 408px;
+    width: 100%;
     height: 244px;
     display: flex;
     flex-direction: column;
