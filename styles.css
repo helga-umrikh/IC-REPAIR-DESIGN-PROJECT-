@@ -48,7 +48,7 @@ body * {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    width: 1086px;
+    width: 89%;
 }
 
 .header-navigation {
@@ -56,7 +56,7 @@ body * {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 629px;
+    width: 75%;
 }
 
 .navigation-list {
@@ -64,7 +64,7 @@ body * {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 614px;
+    width: 100%;
     color: #FFFFFF;
 }
 
@@ -100,7 +100,7 @@ body * {
     color: #FFFFFF;
     outline: 0;
     font-style: italic;
-    width: 161px;
+    width: 13%;
     border-radius: 2px;
 }
 
@@ -143,10 +143,10 @@ body * {
 }
 
 .hero-container {
-    margin: 0 auto;
+    margin: 9.5%;
     position: relative;
     z-index: 1;
-    width: 1168px;
+    width: 96%;
     max-width: 1440px;
     height: 479px;
     display: flex;
@@ -154,13 +154,14 @@ body * {
 }
 
 .hero-title-box {
-    width: 514px;
+    width: 55%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     height: 305px;
     margin-bottom: 23px;
+    padding-right: 16%;
 }
 
 .title {
@@ -192,10 +193,10 @@ body * {
 }
 
 .two-buttons {
-    width: 434px;
+    width: 81%;
     display: flex;
     justify-content: space-between;
-    height: 51px;
+    height: 81px;
 }
 
 .hero-button {
@@ -306,7 +307,7 @@ body * {
 	left: 135px;
 	right: 863px;  
     margin: 0;
-    width: 501px;
+    width: 50%;
     height: 551px;
 }
 
@@ -421,11 +422,11 @@ body * {
     justify-content: space-between;
     margin: 0;    
     height: 557px;
-    width: 679px;
+    width: 77%;
 }
 
 .pr-nav {
-    width: 622px;
+    width: 91%;
     padding: 0;
     margin: 0;
     display: flex;
