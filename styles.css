@@ -4,7 +4,8 @@
 body {
     margin: 0;
     background-color: #FFFFFF;
-    width: 1440px;
+    width: 100%;
+    height: 100%;
 }
 
 body * {
@@ -1251,7 +1252,7 @@ body * {
 
 .interiors-section-container {
     max-width: 1440px;
-    width: 1242px;
+    width: 100%;
     height: 864px;
     margin: 0 auto;
     display: flex;
@@ -1261,7 +1262,7 @@ body * {
 }
 
 .interior-navigation-box {
-    width: 411px;
+    width: 33%;
     height: 669px;
     position: relative;
     display: flex;
@@ -1270,7 +1271,7 @@ body * {
 }
 
 .interior-images-box {
-    width: 831px;
+    width: 66%;
     height: 1023px;
     margin: 0px 0 76px 0;
     display: flex;
@@ -1278,7 +1279,7 @@ body * {
 }
 
 .interior-navigation-title {
-    width: 411px;
+    width: 100%;
     height: 146px;
     display: flex;
     flex-direction: column;
@@ -1290,7 +1291,7 @@ body * {
 }
 
 .interior-title {
-    width: 381px;
+    width: 92%;
     height: 67px;
     font-weight: 400;
     font-size: 27px;
@@ -1299,7 +1300,7 @@ body * {
 }
 
 .interior-navigation-container {
-    width: 411px;
+    width: 100%;
     height: 516px;
 }
 
@@ -1312,7 +1313,7 @@ body * {
     padding: 0;
     margin: 0;
     list-style: none;
-    width: 411px;
+    width: 100%;
     height: 516px;
     display: flex;
     flex-direction: column;
@@ -1321,7 +1322,7 @@ body * {
 }
 
 .interior-navigation-item {
-    width: 411px;
+    width: 100%;
     height: 26px;
     font-size: 20px;
     line-height: 38px;
@@ -1330,7 +1331,7 @@ body * {
 }
 
 .interior-images-container {
-    width: 751px;
+    width: 91%;
     height: 1023px;
     display: flex;
     flex-direction: row;
@@ -1338,7 +1339,7 @@ body * {
 }
 
 .left-images-box {
-    width: 354px;
+    width: 47%;
     height: 1023px;
     display: flex;
     flex-direction: column;
@@ -1346,7 +1347,7 @@ body * {
 }
 
 .right-images-box {
-    width: 354px;
+    width: 47%;
     height: 1023px;
     display: flex;
     flex-direction: column;
@@ -1354,11 +1355,11 @@ body * {
 }
 
 .top-left-image {
-    margin-bottom: 40px;
+    margin-bottom: 1.5%;
 }
 
 .top-right-image {
-    margin-bottom: 40px
+    margin-bottom: 1.5%
 }
 .interiors-overlay {
     content: '';
@@ -1441,8 +1442,8 @@ body * {
     align-items: center;
 }
 .our-clients-container {
-    max-width: 1440px;
-    width: 1236px;
+    max-width: 100%;
+    width: 100%;
     height: 642px;
     display: flex;
     flex-direction: column;
@@ -1466,13 +1467,13 @@ body * {
 }
 
 .our-clients-topbox {
-    width: 1236px;
+    width: 100%;
     height: 187px;
 
 }
 
 .our-clients-people-boxes {
-    width: 1236px;
+    width: 100%;
     height: 455px;
     display: flex;
     flex-direction: row;
@@ -1480,7 +1481,7 @@ body * {
 }
 
 .our-clients-title-symbol-box {
-    width: 1236px;
+    width: 100%;
     height: 67px;
     display: flex;
     flex-direction: column;
@@ -1488,14 +1489,14 @@ body * {
 }
 
 .our-clients-slogan-box {
-    width: 1236px;
+    width: 100%;
     height: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .our-clients-slogan {
-    width: 364px;
+    width: 29%;
     height: 81px;
     font-size: 18px;
     line-height: 29px;
@@ -1505,7 +1506,7 @@ body * {
 }
 
 .our-clients-title {
-    width: 257px;
+    width: 20%;
     height: 39px;
 }
 
@@ -1520,7 +1521,7 @@ body * {
 }
 
 .our-clients-symbol-box {
-    width: 257px;
+    width: 20%;
     height: 28px;
     display: flex;
     flex-direction: row;
@@ -1535,12 +1536,12 @@ body * {
 
 .our-clients-people-box {
     position: relative;
-    width: 376px;
+    width: 30%;
     height: 455px;
 }
 
 .our-clients-people-card {
-    width: 376px;
+    width: 100%;
     height: 428px;
     position: relative;
     z-index: 1;
@@ -1549,19 +1550,19 @@ body * {
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
 }
 .our-clients-people-profile {
-    width: 376px;
+    width: 100%;
     height: 122px;
     display: flex;
     flex-direction: row;
 }
 
 .our-clients-people-description {
-    width: 376px;
+    width: 100%;
     height: 279px;
     padding-left: 20px;
 }
 .our-clients-people-photo {
-    width: 96px;
+    width: 25%;
     height: 122px;
     display: flex;
     align-items: center;
@@ -1569,7 +1570,7 @@ body * {
 }
 
 .our-clients-people-name {
-    width: 280px;
+    width: 74%;
     height: 122px;
     display: flex;
     align-items: center;
@@ -1579,14 +1580,14 @@ body * {
     border-radius: 50%;
 }
 .client-name {
-    width: 170px;
+    width: 60%;
     text-align: left;
     font-size: 18px;
     line-height: 23px;
     margin-top: 20px;
 }
 .our-clients-text {
-    width: 324px;
+    width: 86%;
     font-size: 13px;
     line-height: 180%;
     margin: 0 0 5px 0;
@@ -1599,7 +1600,7 @@ body * {
     margin-top: -27px;
     display: flex;
     justify-content: space-between;
-    width: 296px;
+    width: 78%;
     height: 54px;
     box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
 }
@@ -1661,7 +1662,7 @@ body * {
 
 .map-bottom-container {
     max-width: 1440px;
-    width: 925px;
+    width: 74%;
     height: 954px;
     margin: 0 auto;
     position: relative;
@@ -1673,7 +1674,7 @@ body * {
 }
 
 .question-box {
-    width: 883px;
+    width: 95%;
     height: 445px;
     background-color: #131313;
     margin-top: -222px;
@@ -1682,7 +1683,7 @@ body * {
 }
 
 .question-input-bottom-box {
-    width: 883px;
+    width: 100%;
     height: 360px;
     display: flex;
     flex-direction: column;
@@ -1690,7 +1691,7 @@ body * {
 }
 
 .submit-button-bottom-box {
-    width: 883px;
+    width: 100%;
     height: 85px;
     display: flex;
     align-items: flex-start;
@@ -1698,12 +1699,12 @@ body * {
 }
 
 .map-and-social-media-adress-box {
-    width: 925px;
+    width: 100%;
     height: 679px;
 }
 
 .social-media-adress-box {
-    width: 925px;
+    width: 100%;
     height: 148px;
     display: flex;
     flex-direction: column;
@@ -1821,7 +1822,7 @@ body * {
 }
 
 .map-box {
-    width: 925px;
+    width: 100%;
     height: 464px;
 }
 
