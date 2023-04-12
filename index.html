@@ -182,12 +182,12 @@
                   <input class="input sub-unpt nunito-font " type="text" name="Name" placeholder="What is your name:" />
                 </div>
                 <div class="input-box">
-                  <label for="input" class="label-input  contact-lab nunito-font">Phone</label> <br>
-                  <input class="input sub-unpt nunito-font" type="text" name="Phone" placeholder="Your phone number:" />
+                  <label for="phoneNum" class="label-input  contact-lab nunito-font">Phone</label> <br>
+                  <input class="input sub-unpt nunito-font" id="phoneNum" type="text" name="Phone" placeholder="Your phone number:" />
                 </div>
                 <div class="agreement-container-hidden">
-                  <input type="checkbox" name="agreement" class="checkbox-white">
-                  <label for="agreement" class="checkbox-agreement-text nunito-font white">I agree to the processing of
+                  <input id="agreementMiddle" type="checkbox" name="agreement" class="checkbox-white">
+                  <label for="agreementMiddle" class="checkbox-agreement-text nunito-font white">I agree to the processing of
                     personal data</label>
                 </div>
                 <button class="submit-button nunito-font">SUBMIT</button>
@@ -304,16 +304,17 @@
               <div class="real-input">
                 <div class="request-input-rectangles">
                   <div class="input-box-bottom">
-                    <label for="input" class="label-input-black nunito-font">Name</label> <br>
-                    <input class="input-bottom" type="text" name="Name" placeholder="What is your name:" />
+                    <label for="name_request" class="label-input-black nunito-font">Name</label> <br>
+                    <input class="input-bottom" type="text" id="name_request" name="Name" placeholder="What is your name:" />
                   </div>
                   <div class="input-box-bottom">
-                    <label for="input" class="label-input-black nunito-font">Phone</label> <br>
-                    <input class="input-bottom" type="text" name="Phone" placeholder="Your phone number:" />
+                    <label for="phone_request" class="label-input-black nunito-font">Phone</label> <br>
+                    <input class="input-bottom" type="text" id="phone_request"
+                    name="Phone" placeholder="Your phone number:" />
                   </div>
                   <div class="input-box-bottom">
-                    <label for="input" class="label-input-black nunito-font">Email</label> <br>
-                    <input class="input-bottom" type="text" name="Email" placeholder="Your email:" />
+                    <label for="email" class="label-input-black nunito-font">Email</label> <br>
+                    <input class="input-bottom" type="text" id="email" name="Email" placeholder="Your email:" />
                   </div>
                 </div>
                 <div class="agreement-container">
