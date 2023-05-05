@@ -417,39 +417,18 @@ body * {
     height: 10px;
     border-radius: 30px;
     display: flex;
+    background-color: #FFFFFF;
     opacity: 30%;
 }
 
 .dot-symbol:hover {
-    background-color: #FFFFFF;
+    opacity: 100%;
 }
 
 .projects-image {
     width: 679px;
     height: 482px;
     position: relative;
-}
-
-.image {
-    background-size: cover;
-    background-position: center center;
-    position: absolute;
-    width: 679px;
-    height:  482px;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    transition: opacity 800ms ease;
-}
-
-.active {
-    opacity: 100%;
-    background-color:#FFFFFF;
-}
-
-.active-title{
-    border-bottom: 1px #E3B873 solid;
-    color: #E3B873;
 }
 
 
@@ -489,7 +468,8 @@ body * {
     list-style-type: none;
 }
 
-.slider-menu:hover {
+.slider-menu:hover, 
+.active{
     color: #E3B873;
 }
 
