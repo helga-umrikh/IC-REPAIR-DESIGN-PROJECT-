@@ -86,13 +86,13 @@
           <div class="projects_items">
             <div class="pr-item">
               <h1 class="pr-headed yeseva-font">CITY:</h1>
-              <p class="pr-item-desc">Rostov-on-Don LCD admiral</p>
+              <p class="pr-item-desc city"></p>
             </div>
-            <div class="pr-item">
+            <div class="pr-item area">
               <h1 class="pr-headed yeseva-font">APARTMENT AREA:</h1>
               <p class="pr-item-desc">81 m2</p>
             </div>
-            <div class="pr-item">
+            <div class="pr-item time">
               <h1 class="pr-headed yeseva-font">REPAIR TIME:</h1>
               <p class="pr-item-desc">3.5 months</p>
             </div>
@@ -102,7 +102,7 @@
             </div>
           </div>
           <div class="arrow-symbol">
-            <svg id="arrow_left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100">
+            <svg class="arrow_left slider-arrow" id="arrow_left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100">
               <defs>
                 <marker id="startarrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
                   <polygon points="10 0, 10 7, 0 3.5" />
@@ -111,12 +111,8 @@
               <line id="arrow-line-left" x1="100" y1="50" x2="300" y2="50" stroke="#000" stroke-width="8"
                 marker-start="url(#startarrow)" />
             </svg>
-            <div class="dot-symbols">
-              <div class="dot-symbol"><img src="./dot.svg" alt="dot symbol" /></div>
-              <div class="dot-symbol"><img src="./dot.svg" alt="dot symbol" /></div>
-              <div class="dot-symbol"><img src="./dot.svg" alt="dot symbol" /></div>
-            </div>
-            <svg id="arrow_right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100">
+            <div class="dot-symbols"></div>
+            <svg class="arrow_right slider-arrow" id="arrow_right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100">
               <defs>
                 <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
                   <polygon points="0 0, 10 3.5, 0 7" />
@@ -128,22 +124,11 @@
           </div>
         </div>
         <div class="image-nav_projects">
-          <nav class="projects-navigation">
-            <ul class="pr-nav yeseva-font">
-              <li class="pr-nav-item">
-                <a class="change-color add-border" href="#">ROSTOV-ON-DON, ADMIRAL</a>
-              </li>
-              <li class="pr-nav-item">
-                <a class="change-color add-border" href="#">SOCHI THIEVES</a>
-              </li>
-              <li class="pr-nav-item">
-                <a class="change-color add-border" href="#">ROSTOV-ON-DON PATRIOTIC</a>
-              </li>
+          <div class="projects-navigation">
+            <ul class="pr-nav">
             </ul>
-          </nav>
-          <div class="projects-image">
-            <img class="pr-image" src="./interior-project.jpg" alt="interior loggia" />
           </div>
+          <div class="projects-image"></div>
         </div>
       </div>
     </section>
@@ -638,6 +623,6 @@
       <button class="request-button" type="submit">REQUEST A CALL</button>
     </div>
   </footer>
+  <script src="./script.js"></script>
 </body>
-
 </html>
