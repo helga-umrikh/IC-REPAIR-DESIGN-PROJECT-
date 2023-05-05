@@ -414,14 +414,23 @@ body * {
 
 .dot-symbol {
     width: 10px;
-    height: 10px;;
+    height: 10px;
     border-radius: 30px;
     display: flex;
+    background-color: #FFFFFF;
+    opacity: 30%;
 }
 
 .dot-symbol:hover {
-    background-color: #FFFFFF;
+    opacity: 100%;
 }
+
+.projects-image {
+    width: 679px;
+    height: 482px;
+    position: relative;
+}
+
 
 .image-nav_projects {  
     top: 107px;
@@ -449,11 +458,21 @@ body * {
     line-height: 19px;   
 }
 
-.pr-nav-item a {
-    color: rgba(255, 255, 255, 0.3);
+.slider-menu {
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
     
 }
+
+.pr-nav-item {
+    list-style-type: none;
+}
+
+.slider-menu:hover, 
+.active{
+    color: #E3B873;
+}
+
 .pr-image {
     max-width: 100%;
 }
