@@ -144,7 +144,7 @@ body * {
 /* MAIN */
 
 .hero {
-    background-image: url('./hero.jpg');
+    background-image: url('./asserts/hero.jpg');
     background-size: cover;
     height: 707px;
     position: relative;
@@ -1100,7 +1100,7 @@ body * {
     margin: 0;
     height: 861px;
     width: 100%;
-    background-image: url(./building.svg);
+    background-image: url(./asserts/svg/building.svg);
     background-size: 618px;
     background-repeat: no-repeat;
 }
@@ -1272,7 +1272,7 @@ body * {
 
 
 .interiors-section {
-    background-image: url('./interiors.jpg');
+    background-image: url('./asserts/interiors.jpg');
     background-size: cover;
     height: 864px;
     position: relative;
@@ -1687,7 +1687,7 @@ body * {
     position: relative;
     width: 100%;
     height: 955px;
-    background-image: url(./skycraper.svg);
+    background-image: url('./asserts/svg/skycraper.svg');
 }
 
 .map-bottom-overlay {
