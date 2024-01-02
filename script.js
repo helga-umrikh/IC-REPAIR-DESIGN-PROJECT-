@@ -1,6 +1,6 @@
 const entities = [
   {
-    url: "./asserts/image_1.jpg",
+    url: './asserts/image_1.jpg',
     menuBtn: "ROSTOV-ON-DON, ADMIRAL",
     city: "Rostov-on-Don LCD admiral",
     area: "81 m2",
