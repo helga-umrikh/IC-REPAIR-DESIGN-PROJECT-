@@ -1582,7 +1582,7 @@ body * {
 }
 .our-clients-container {
     max-width: 100%;
-    width: 100%;
+    width: 1237px;
     height: 642px;
     display: flex;
     flex-direction: column;
