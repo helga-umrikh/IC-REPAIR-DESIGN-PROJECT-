@@ -35,7 +35,7 @@ function initSlider() {
 
   //СМЕНА КАРТИНКИ//
   function initImages(index) {
-    imageBox.style.backgroundImage = `url(${entities[index].url})`;
+    imageBox.src = `${entities[index].url}`;
   };
   initImages(currIndex);
 
