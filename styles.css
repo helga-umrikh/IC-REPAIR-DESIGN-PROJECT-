@@ -312,7 +312,7 @@ body * {
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 6.6em;
-    max-width: 81%;
+    width: 1171px;
 }
 
 .description-box {
