@@ -113,6 +113,7 @@ body * {
     font-style: italic;
     width: 13%;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .request-button:hover {
@@ -143,7 +144,7 @@ body * {
 /* MAIN */
 
 .hero {
-    background-image: url('./hero.jpg');
+    background-image: url('./asserts/hero.jpg');
     background-size: cover;
     height: 707px;
     position: relative;
@@ -222,6 +223,7 @@ body * {
     border-radius: 2px;
     background: #E3B873;
     color: #FFFFFF;   
+    cursor: pointer;
 }
 
 .hero-button:hover {
@@ -394,6 +396,7 @@ body * {
 
 #arrow_left, #arrow_right {
     opacity: 30%;
+    cursor: pointer; 
 }
 #arrow_left:hover{
     opacity: 100%;
@@ -410,6 +413,7 @@ body * {
     width: 134px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer; 
 }
 
 .dot-symbol {
@@ -461,7 +465,7 @@ body * {
 .slider-menu {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.3);
-    
+    cursor: pointer;   
 }
 
 .pr-nav-item {
@@ -753,7 +757,8 @@ body * {
     border: 0;
     border-radius: 2px;
     background: #E3B873;
-    color: #FFFFFF;   
+    color: #FFFFFF; 
+    cursor: pointer;   
 }
 
 .submit-button:hover {
@@ -1007,6 +1012,7 @@ body * {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
     border: 0;
     font-size: 18px;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -1094,7 +1100,7 @@ body * {
     margin: 0;
     height: 861px;
     width: 100%;
-    background-image: url(./building.svg);
+    background-image: url(./asserts/svg/building.svg);
     background-size: 618px;
     background-repeat: no-repeat;
 }
@@ -1107,7 +1113,7 @@ body * {
     flex-direction: row;
     margin: 0 auto;
     background-size: 618px;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
 }
 
 .benefits {
@@ -1266,7 +1272,7 @@ body * {
 
 
 .interiors-section {
-    background-image: url('./interiors.jpg');
+    background-image: url('./asserts/interiors.jpg');
     background-size: cover;
     height: 864px;
     position: relative;
@@ -1681,7 +1687,7 @@ body * {
     position: relative;
     width: 100%;
     height: 955px;
-    background-image: url(./skycraper.svg);
+    background-image: url('./asserts/svg/skycraper.svg');
 }
 
 .map-bottom-overlay {
@@ -1819,6 +1825,7 @@ body * {
     border-radius: 2px;
     background: #E3B873;
     color: #FFFFFF;   
+    cursor: pointer;
 }
 
 .submit-button-bottom:hover {
@@ -1975,11 +1982,13 @@ body * {
     .email-symbol {
         width: 39px;
         height: 39px;
+        cursor: pointer;
     }
 
     .instagram-symbol {
         width: 39px;
         height: 39px;
+        cursor: pointer;
     }
 
     .instagtam-symbol-box {
