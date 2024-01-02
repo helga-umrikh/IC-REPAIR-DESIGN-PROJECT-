@@ -1218,7 +1218,7 @@ body * {
 .req-section {
     max-width: 1440px;
     display: flex;
-    width: 100%;
+    width: 1237px;
     justify-content: space-between;
     flex-direction: row;
     margin: 0 auto;
