@@ -1594,13 +1594,11 @@ body * {
 }
 
 .city-view-left {
-    width: 50%;
     transform: scaleX(-1);
     margin-top: -77px;
 }
 
 .city-view-right {
-    width: 50%;
     margin-top: -77px;
 }
 
