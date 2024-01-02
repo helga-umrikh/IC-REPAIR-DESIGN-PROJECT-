@@ -42,7 +42,8 @@ body * {
 .header-box {
     display: flex;
     justify-content: space-between;
-    width: 87%;
+    width: 1296px;
+    padding: 0 25px 0 25px;
     height: 37px;
 }
 
@@ -144,51 +145,50 @@ body * {
 /* MAIN */
 
 .hero {
-    background-image: url('./asserts/hero.jpg');
-    background-size: cover;
-    height: 707px;
     position: relative;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 707px;
+    background-image: url('./asserts/hero.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-container {
-
     position: relative;
-    z-index: 1;
-    width: 96%;
-    max-width: 1440px;
-    height: 479px;
     display: flex;
     align-items: center;
+    max-width: 77.1875em;
+    height: 479px;
+    margin: 0 auto;
+    padding: 0 40.75em 0 2em;
+    z-index: 1;
 }
 
 .hero-title-box {
-    width: 48%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    width:  32.4375em;
     height: 305px;
     margin-bottom: 23px;
-    padding-left: 10%;
 }
 
 .title {
-    font-family: Yeseva One, "Times New Roman", Times, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 53px;
-    text-align: left;
     margin: 0;
-    color: #FFFFFF;
     height: 105px;
+    font-family: 'Yeseva One', "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 132.825%;
+    text-align: left;
+    color: #FFFFFF;
 }
 
-.title:hover {
+.title__bold {
     color: #E3B873;
 }
 
